@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../styles/website.css'
+import '../styles/Website.css'
 
 const Website = () => {
     const [loading, setLoading] = useState(true);
