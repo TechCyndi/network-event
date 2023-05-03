@@ -50,7 +50,7 @@ const Website = () => {
                             <h3 className="title">{item.title}</h3>
                             <p className="date">{new Date(item.release_date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
                             <p className="crawl">{reduceLength(item.opening_crawl, 260)}</p>
-                            <a href="#">More Info</a>    
+                            <a href="/#">More Info</a>    
                         </div> 
                         ))}
                 </div>
